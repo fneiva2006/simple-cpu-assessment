@@ -1,0 +1,23 @@
+
+State Machine - |system|fullCPU:CPU|ControlBlock:ctrl_blk|controladora:ctrler|atual
+Name atual.s_MOVE atual.s_JUMP_2 atual.s_JUMP atual.s_OUTPUT_2 atual.s_OUTPUT_1 atual.s_INPUT_2 atual.s_INPUT_1 atual.s_LOAD_3 atual.s_LOAD_2 atual.s_LOAD_1 atual.s_STORE_2 atual.s_STORE_1 atual.s_BEQ_3 atual.s_BEQ_2 atual.s_BEQ_1 atual.s_ADDI atual.s_RO_ops atual.decodificar atual.buscar atual.iniciar 
+atual.iniciar 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+atual.buscar 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+atual.decodificar 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+atual.s_RO_ops 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+atual.s_ADDI 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+atual.s_BEQ_1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+atual.s_BEQ_2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+atual.s_BEQ_3 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+atual.s_STORE_1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+atual.s_STORE_2 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+atual.s_LOAD_1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+atual.s_LOAD_2 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+atual.s_LOAD_3 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+atual.s_INPUT_1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+atual.s_INPUT_2 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+atual.s_OUTPUT_1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+atual.s_OUTPUT_2 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+atual.s_JUMP 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+atual.s_JUMP_2 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+atual.s_MOVE 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

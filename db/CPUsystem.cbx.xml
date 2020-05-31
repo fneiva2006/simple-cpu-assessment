@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="CPUsystem">
+		<CBX_INST_ENTRY INSTANCE_NAME="|system|dm:DataMemory|altsyncram:md_rtl_0" CBX_FILE_NAME="altsyncram_n1l1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
